@@ -1,3 +1,4 @@
+//test
 AJS.$(document).ready(function () {
     console.log("timeline_template.js on loading...");
     /* Inicializacion de CANVAS */
