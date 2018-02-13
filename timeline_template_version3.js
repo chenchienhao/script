@@ -1,4 +1,3 @@
-//test
 AJS.$(document).ready(function () {
     console.log("timeline_template.js on loading...");
     /* Inicializacion de CANVAS */
@@ -193,7 +192,7 @@ AJS.$(document).ready(function () {
 
         ms.x = ms_position;
         ms.y = 50;
-        tipodemilestone_label = ms.tipodemilestone.substr(0, ms.tipodemilestone.indexOf(" - ")) + '-' + ms_extend;
+        tipodemilestone_label = ms.tipodemilestone.substr(0, ms.tipodemilestone.indexOf(" - ")) + '.' + ms_extend;
         tipodemilestone_label_date = date_position.substr(0, date_position.indexOf("/")+1)+all_month[Number(date_position.slice(date_position.indexOf("/")+1, date_position.lastIndexOf("/")))-1];
 
         if(ms.statusmilestone.toLowerCase() == allcase_statusmilestone[0])
